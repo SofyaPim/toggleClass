@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="form-request">
+        <div class="form-request-button-box">
+            <div class="form-request-button-box-content">
+                <h2>Отправьте вопрос</h2>
+                <div class="button">Отправьте нам вопрос))</div>
+            </div>
+        </div>
+        <div class="form-request-popup hidden">
+            <div class="form-request-popup-content">
+                <div class="form-request-popup-close"></div>
+                <h3>Напишите нам</h3>
+                <form action="" method="POST">
+                    <input type="text" name="fio" placeholder="ФИО" >
+                    <input type="email" name="email" placeholder="Email" >
+                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                    <textarea name="comment" placeholder="Ваш комментарий" rows="10">
+                    </textarea>
+                    <button type="submit">Отправить</button>
+                    <div class="error-message"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+	<div class="faq-wrapper">
+     <h2 class="faq-quest">Есть ли у вас скидки?</h2> 
+     <div class="faq-answer"> 
+          <p>Да, для студентов, пенсионеров и постоянных клиентов</p> 
+     </div> 
+     <h2 class="faq-quest">Включена ли страховка в стоимость путевки?</h2> 
+     <div class="faq-answer"> 
+          <p>У нас дифференцированная система страхования</p> 
+     </div> 
+	 <h2 class="faq-quest">Можно ли будет принять участие в метных обрядах?</h2> 
+     <div class="faq-answer"> 
+          <p>Риски включает в себя некоторые полисы страхования</p> 
+     </div> 
+</div> 
+</body>
+</html>

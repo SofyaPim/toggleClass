@@ -1,0 +1,154 @@
+.form-request{
+    display: flex;
+    justify-content: center;
+}
+.form-request-button-box-content{
+    cursor:pointer;
+    border:2px solid black;
+}
+.see{
+    display:flex;
+}
+.hidden{
+    display:none;
+}
+.form-request-popup{
+    justify-content: center;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: rgba(38,35,80,0.5);
+    z-index:1;
+    left: 40%;
+    top:20%;
+}
+.form-request-popup-close{
+    position:absolute;
+    width:40px;
+    height:40px;
+    /* background-color: #ffb300; */
+    right:-45px;
+    top:-45px;
+    cursor: pointer;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/status/100/close_1-512.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.form-request-popup-content{
+    background-color: #ffb300;
+    position:relative;
+    border:3px solid #ffb300;
+    padding: 20px;
+    width:400px;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.alt_dark{
+    background-color: black;
+    position:relative;
+    border:3px solid #1d038f;
+    padding: 20px;
+    width:400px;
+    box-sizing: border-box;
+    color:white !important;
+    transition: all 1s;
+}
+.alt_red{
+    background-color: red;
+    position:relative;
+    border:3px solid orange;
+    padding: 20px;
+    width:400px;
+    box-sizing: border-box;
+    color:white;
+    transition: all 1s;
+}
+
+
+
+
+
+
+.form-request-popup h3{
+    font-size: 25px;
+    color:#262350;
+}
+.form-request-popup-content form{
+    width:100%;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-flow:column nowrap;
+}
+input{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+button[type="submit"]{
+    width: 200px;
+    padding: 10px;
+    align-self: flex-end;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.faq-wrapper{
+	margin-top:5%;
+	 width: 80%;
+	margin-left:10%;
+	
+}
+
+.faq-quest {
+	
+	font-size: 16px;
+	background: #ebebeb;
+	margin: 5px 0 0 0;
+	padding: 5px 20px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	color: #666666;
+	
+}
+
+.active-quest{
+	
+	border-radius: 5px 5px 0 0;
+	background: blue;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.active-quest:hover {
+	background:  red;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.inactive-quest {
+	background:  gray;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.inactive-quest:hover {
+	background:  blue;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.faq-answer {
+	display: none;
+	padding: 20px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-top: 0;
+	
+}
