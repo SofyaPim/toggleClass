@@ -34,19 +34,19 @@ $("form").submit(function(e){
     
     if(fioVal == ""){
         $(this).find("[name='fio']").css("border-color", "red");
-        errorMessage = errorMessage + "вашефамилье";
+        errorMessage = errorMessage + "Ваша фамилия? ";
     }else{
         $(this).find("[name='fio']").css("border-color", "green");
     }
     if(emailVal == ""){
         $(this).find("[name='email']").css("border-color", "red");
-        errorMessage = errorMessage + "собака@";
+        errorMessage = errorMessage + "некорректный адрес ";
     }else{
         $(this).find("[name='email']").css("border-color", "green");
     }
     if(phoneVal == ""){
         $(this).find("[name='phone']").css("border-color", "red");
-        errorMessage = errorMessage + "труба";
+        errorMessage = errorMessage + "Телефон?";
     }else{
         $(this).find("[name='phone']").css("border-color", "green");
     }
